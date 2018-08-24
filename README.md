@@ -33,13 +33,13 @@ Files:
 
         We've set 'theme_name' property where we get theme name and use it where we need it.
 
-        Code: parent/classes/settings_parent.php
+        Code: [parent/classes/settings_parent.php](https://github.com/Karucida/moodleinherittheme/blob/master/moodle/theme/parent/classes/settings_parent.php)
 
 
 
         Later, in settings.php, we've use the settings_parent class by sending the name of the theme and calling the settings function.
 
-        Code: parent/settings.php
+        Code: [parent/settings.php](https://github.com/Karucida/moodleinherittheme/blob/master/moodle/theme/parent/settings.php)
 
 
 
@@ -49,13 +49,13 @@ Files:
 
         If we want, we can add extra settings for child theme.
 
-        Code: child/classes/settings_child.php
+        Code: [child/classes/settings_child.php](https://github.com/Karucida/moodleinherittheme/blob/master/moodle/theme/child/classes/settings_child.php)
 
 
 
         By last, we've use the settings_child class by sending the name of the theme and calling the settings function.
 
-        Code: child/settings.php
+        Code: [child/settings.php](https://github.com/Karucida/moodleinherittheme/blob/master/moodle/theme/child/settings.php)
 
 
 
@@ -73,7 +73,7 @@ Files:
 
     Parent
     
-        Code: parent/lib.php
+        Code: [parent/lib.php](https://github.com/Karucida/moodleinherittheme/blob/master/moodle/theme/parent/lib.php)
 
 
 
@@ -81,7 +81,7 @@ Files:
     
         In lib.php, we've imported the lib from parent theme and we've created the function we want to inherit from parent with the name of child theme. 
         Inside the function, we've called the function and added we want in our child theme.
-        Code: child/lib.php
+        Code: [child/lib.php](https://github.com/Karucida/moodleinherittheme/blob/master/moodle/theme/child/lib.php)
 
 
 by [@karucida](https://github.com/karucida "karucida") && [@jorgehuete](https://github.com/jorgehuete "jorgehuete")
