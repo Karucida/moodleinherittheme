@@ -27,33 +27,33 @@ Files:
   - settings.php
 
 
-Parent
-We've created a class 'settings parent' with a function 'settings' where we've got the settings of 'Parent' theme. 
+    Parent
+      We've created a class 'settings parent' with a function 'settings' where we've got the settings of 'Parent' theme. 
 
-We've set 'theme_name' property where we get theme name and use it where we need it.
+      We've set 'theme_name' property where we get theme name and use it where we need it.
 
-Code: parent/classes/settings_parent.php
-
-
-
-Later, in settings.php, we've use the settings_parent class by sending the name of the theme and calling the settings function.
-
-Code: parent/settings.php
+      Code: parent/classes/settings_parent.php
 
 
 
-Child
-And on the part of child theme, in settings_child.php, we've created settings_child class by extending from settings_parent for get parent settings. (We need import settings_parent file from parent theme for extend settings_parent)
+      Later, in settings.php, we've use the settings_parent class by sending the name of the theme and calling the settings function.
 
-If we want, we can add extra settings for child theme.
-
-Code: child/classes/settings_child.php
+      Code: parent/settings.php
 
 
 
-By last, we've use the settings_child class by sending the name of the theme and calling the settings function.
+    Child
+      And on the part of child theme, in settings_child.php, we've created settings_child class by extending from settings_parent for get parent settings. (We need import settings_parent file from parent theme for extend settings_parent)
 
-Code: child/settings.php
+      If we want, we can add extra settings for child theme.
+
+      Code: child/classes/settings_child.php
+
+
+
+      By last, we've use the settings_child class by sending the name of the theme and calling the settings function.
+
+      Code: child/settings.php
 
 
 
@@ -69,15 +69,15 @@ Files:
 
 
 
-Parent
-Code: parent/lib.php
+    Parent
+      Code: parent/lib.php
 
 
 
-Child
-In lib.php, we've imported the lib from parent theme and we've created the function we want to inherit from parent with the name of child theme. 
-Inside the function, we've called the function and added we want in our child theme.
-Code: child/lib.php
+    Child
+      In lib.php, we've imported the lib from parent theme and we've created the function we want to inherit from parent with the name of child theme. 
+      Inside the function, we've called the function and added we want in our child theme.
+      Code: child/lib.php
 
 
 by [@karucida](https://github.com/karucida "karucida") && [@jorgehuete](https://github.com/jorgehuete "jorgehuete")
