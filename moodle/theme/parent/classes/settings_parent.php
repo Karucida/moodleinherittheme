@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @package    theme_parent
  * @author     Jorge Huete & Carlos Perez
