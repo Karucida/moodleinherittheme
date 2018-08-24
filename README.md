@@ -5,4 +5,4 @@ We've reached a conclusion and development funtional
 on this case to inherit these files. 
 We don't know if is this the best way to do but works
 
-by @Karucida && @jorgehuete
+by [@karucida](https://github.com/karucida "karucida") && [@jorgehuete](https://github.com/jorgehuete "jorgehuete")
