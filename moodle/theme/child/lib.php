@@ -7,12 +7,6 @@
 //INCLUDE THE LIB OF THE PARENT
 include_once ($CFG->dirroot.'/theme/parent/lib.php');
 
-/**
- * child backgrounds callbacks.
- * @package    theme_child
- * @author     Jorge Huete & Carlos Perez
- */
-
 defined('MOODLE_INTERNAL') || die();
 
 
