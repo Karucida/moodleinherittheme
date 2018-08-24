@@ -27,7 +27,7 @@ Files:
   - settings.php
 
 
-    ###### Parent
+    ## Parent
     
       We've created a class 'settings parent' with a function 'settings' where we've got the settings of 'Parent' theme. 
 
@@ -43,7 +43,7 @@ Files:
 
 
 
-    ###### Child
+    ## Child
     
       And on the part of child theme, in settings_child.php, we've created settings_child class by extending from settings_parent for get parent settings. (We need import settings_parent file from parent theme for extend settings_parent)
 
@@ -71,13 +71,13 @@ Files:
 
 
 
-    ###### Parent
+    ## Parent
     
       Code: [parent/lib.php](https://github.com/Karucida/moodleinherittheme/blob/master/moodle/theme/parent/lib.php)
 
 
 
-    ###### Child
+    ## Child
     
       In lib.php, we've imported the lib from parent theme and we've created the function we want to inherit from parent with the name of child theme. 
       Inside the function, we've called the function and added we want in our child theme.
