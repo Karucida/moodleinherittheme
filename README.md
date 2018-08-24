@@ -28,6 +28,7 @@ Files:
 
 
     Parent
+    
       We've created a class 'settings parent' with a function 'settings' where we've got the settings of 'Parent' theme. 
 
       We've set 'theme_name' property where we get theme name and use it where we need it.
@@ -43,6 +44,7 @@ Files:
 
 
     Child
+    
       And on the part of child theme, in settings_child.php, we've created settings_child class by extending from settings_parent for get parent settings. (We need import settings_parent file from parent theme for extend settings_parent)
 
       If we want, we can add extra settings for child theme.
@@ -70,11 +72,13 @@ Files:
 
 
     Parent
+    
       Code: parent/lib.php
 
 
 
     Child
+    
       In lib.php, we've imported the lib from parent theme and we've created the function we want to inherit from parent with the name of child theme. 
       Inside the function, we've called the function and added we want in our child theme.
       Code: child/lib.php
