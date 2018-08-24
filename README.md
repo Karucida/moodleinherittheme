@@ -17,12 +17,12 @@ Settings.php
 Files: 
 
 - Parent
-  - classes/settings_parent.php.
+  - classes/settings_parent.php
 
   - settings.php
 
 - Child
-  - classes/settings_child.php. 
+  - classes/settings_child.php
 
   - settings.php
 
