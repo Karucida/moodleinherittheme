@@ -1,8 +1,10 @@
 <?php
-/*
- * @package    theme_child
+
+/**
+ * @package    theme_parent
  * @author     Jorge Huete & Carlos Perez
  */
+
 require_once($CFG->dirroot . '/theme/parent/classes/settings_parent.php');
 
 class settings_child extends settings_parent{
